@@ -1,0 +1,16 @@
+.screenLayout {
+	height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    /* grid-template-rows: 20% 75% 5%; */
+    grid-template-columns: repeat(6,1fr);
+}
+.screenLayout>header,.screenLayout>footer {
+	grid-column: span 6;
+}
+.screenLayout>main {
+	grid-column: span 5;
+}
+.screenLayout>* {
+	border: 1px solid black;
+}

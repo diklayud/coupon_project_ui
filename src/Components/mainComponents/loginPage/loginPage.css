@@ -1,0 +1,7 @@
+.loginPage {
+	width: 50%;
+	margin: 10px auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
